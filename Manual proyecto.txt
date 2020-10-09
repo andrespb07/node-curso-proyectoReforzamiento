@@ -1,0 +1,15 @@
+En esta sección vamos a realizar un manual con todos los pasos de creación del proyecto.
+
+1- Inicio del proyecto
+1.1 Creación del package.json colocando en el cmd (npm init) en la carpeta donde va a contener nuestro
+    proyecto.
+1.2 Instalamos varios paquetes a nuestro proyecto desde el cmd: Yargs y Colors utilizamos el siguiente 
+    comando (npm install --save yargs colors)
+1.3 Creamos nuestro proyecto app.js
+1.4 Creamos una carpeta con el nombre de configuración y un archivo js con el nombre yargs.js
+1.5 Crearemos una tarea persistente, es decir que al ejecutar nuestro yargs este se guarde en un archivo JSON 
+    todas las tareas que digitemos, Se crearan dos carpetas:
+    - Carpeta 1: es el fyle system que es donde va a grabar toda la información o las tareas que vamos al
+    guardar. La carpeta se llamara realizar y con el nombre de por-hacer.js
+    - Carpeta 2: es donde va a registrar todas las tareas ejecutadas desde el cmd y se alojaran en la carpeta
+    base-de-datos  con un archivo.json llamado tareas.json
